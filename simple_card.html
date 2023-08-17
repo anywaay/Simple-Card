@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: #FF3CAC;
+            background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 1000px;
+            height: 500px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            /* align-items: center; */
+        }
+        .rightbox{
+            width: 50%;
+            height: 500px;
+        }
+        img{
+            width: 500px;
+            height: 500px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .leftbox{
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+            padding: 25px;
+            background-color: #33055b;
+        }
+        h2{
+            color: white;
+            font-size: 29px;
+        }
+        h3{
+            color: white;
+            font-size: 25px;
+        }
+        p{
+            color: white;
+        }
+        .upperbox{
+            margin-left: 9%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .middlebox{
+            margin: 5%;
+        }
+        .lowerbox{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+
+            <div class="leftbox">
+                <div class="upperbox">
+                    <h2>Get insights that help your business grow.</h2>
+                </div>
+                <div class="middlebox">
+                    <p>"Fuel Your Business Growth with Strategic Insights. Elevate your success through data-driven wisdom, making smarter decisions and achieving remarkable growth."</p>
+                </div>
+                <div class="lowerbox">
+                    <div id="first">
+                        <h3>10K+</h3>
+                        <p>comments</p>
+                    </div>
+                    <div id="second">
+                        <h3>214</h3>
+                        <p>paid users</p>
+                    </div>
+                    <div id="third">
+                        <h3>12M+</h3>
+                        <p>views</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rightbox">
+                <img src="Anyway.jpg" alt="Anyway">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
